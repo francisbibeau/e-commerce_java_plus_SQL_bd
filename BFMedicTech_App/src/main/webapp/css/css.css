@@ -1,0 +1,188 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 12, 2020, 5:58:16 PM
+    Author     : bsawadog
+*/
+
+#cart_img {
+    width: 100px;
+    height: 100px
+}
+
+#logo_img{
+    width: 150px;
+    height: 150px 
+}
+#logo_img:hover{
+    transform: rotate(360deg);
+    transition-duration: 3s;
+}
+
+#search:hover{
+    zoom: 1.5
+}
+
+#vide{
+    height: 7px;
+}
+
+.paniersearch{
+    display: inline;
+
+}
+#searchForm{
+    margin-left: 20px;
+}
+
+#panier{
+    margin-left: 30px;
+    padding-left: 10px;
+}
+
+.nav_container{
+    margin-left: 10%;
+}
+.navbar-brand{
+    margin: 20px;
+
+}
+.navbar-brand:hover{
+    background-color: green;
+    border-style: solid;
+    border-color: red;
+    border-radius: 25px 0 25px 0;
+    padding-left: 25px;
+    padding-right: 25px;
+    transition: all 1s ease;
+    -webkit-box-shadow: 16px 17px 16px -7px #000000; 
+    box-shadow: 16px 17px 16px -7px #000000;
+    text-transform: uppercase;
+    color: green;
+}
+
+
+#select{
+ 
+}
+
+/* Diaparoma images Asisde*/
+@keyframes AutoSlide {
+    0% {
+        left: 0px;
+    }
+    5% {
+        left: 0px;
+    }
+    33% {
+        left: -1000px;
+    }
+    38% {
+        left: -1005px;
+    }
+    71% {
+        left: -2000px;
+    }
+
+
+
+}
+.slideshow {
+    margin-top: 20px;
+    width: 1000px;
+    margin: auto;
+    height: 400px;
+    margin-bottom: 40px;  
+    background-color: red;
+    background: #D0E4F5 url("/images/imagesCarroussell/1.jpg") no-repeat scroll -37px -40px;
+
+}
+.content {
+    margin-top: 20px;
+    width: 1000px;
+    /*largeur de la boite de defilement des images*/
+    /*centrage du slider*/
+    overflow: hidden;
+    /*cacher les autres images*/
+    height: 400px;
+
+}
+.content-carrousel {
+    position: relative;
+    width: 3000px;
+    height: 400px;
+    animation-name: AutoSlide;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+}
+figure {
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+.content-carrousel img {
+    float: left;
+    width: 33.33%;
+    height: 400px;
+}
+.content-carrousel img:hover {
+    background-color: red;
+    opacity: 0.5;
+}
+.display-4{
+    text-shadow: #FFFCA8 2px 2px 0px, #9C9C9C 4px 4px 0px, -37px -37px 1px rgba(2,9,2,0);
+    text-align: center;
+}
+
+.figConteneur {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.figConteneur:hover {
+    -webkit-box-shadow: 16px 17px 16px -7px #000000; 
+    box-shadow: 16px 17px 16px -7px #000000;
+    transition: all 1s ease;
+    background-color: white;
+  opacity: 0.5;
+}
+
+.produits{
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+   
+    padding: 10px;
+    margin: auto
+}
+.produits img {
+    width: 100%;
+    height: 400px
+}
+
+#addCartButton{
+    border-radius: 20px;
+}
+#addCartButton:hover{
+    background-color: green
+}
+
+.carouselCategorie {
+    display: inline
+}
+
+#categorie {
+ 
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+   
+}
